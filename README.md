@@ -1,5 +1,5 @@
 # tls_echo
-## Simple TLS echo server made in Rust with Tokio and OpenSSL crates
+## Simple TLS echo server made in Rust with Tokio and OpenSSL
 ### Just for testing
 #### Instructions:
 Run the server with `cargo run`
