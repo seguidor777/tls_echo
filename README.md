@@ -1,6 +1,6 @@
 # tls_echo
 ## Simple TLS echo server made in Rust with Tokio and OpenSSL
-### For testing or using as boilerplate
+### For testing mTLS or using as boilerplate
 #### Instructions:
 Run the server with `cargo run`
 <br/>
