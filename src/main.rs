@@ -31,10 +31,10 @@ async fn main() {
     let mut acceptor = SslAcceptor::mozilla_modern(SslMethod::tls()).unwrap();
 
     acceptor
-        .set_private_key_file("./ssl/key.pem", SslFiletype::PEM)
+        .set_private_key_file("./ssl/server.key", SslFiletype::PEM)
         .unwrap();
     acceptor
-        .set_certificate_chain_file("./ssl/certs.pem")
+        .set_certificate_chain_file("./ssl/certs-chain.crt")
         .unwrap();
     acceptor.check_private_key().unwrap();
 
