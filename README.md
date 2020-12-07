@@ -9,4 +9,4 @@ In another shell, execute something like
 openssl s_client -key client.key -cert client.crt -CAfile ca.crt -connect localhost:8443
 ```
 and start typing whatever you want
-##### Note: You must have the server and client certificates present in ssl/
+##### Note: You must have the server.key and certs-chain.crt (server.crt + ca.crt) files present in ssl/
